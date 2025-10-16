@@ -19,10 +19,16 @@ The Streamlit dashboard is built with Python and provides interactive visualizat
 - Pandas
 - Plotly
 
-### How to Run:
+### How to Run Locally:
 ```bash
 streamlit run banking_dashboard.py
 ```
+
+### Deployment Instructions:
+1. Create a `requirements.txt` file with all dependencies
+2. Push the code to GitHub
+3. Connect your GitHub repository to Streamlit Cloud
+4. Streamlit Cloud will automatically install dependencies from requirements.txt
 
 ## Power BI Dashboard
 
@@ -107,7 +113,7 @@ The dashboard is built using the `Banking.csv.xlsx` file which contains customer
 1. Ensure you have Python installed
 2. Install required packages:
    ```
-   pip install pandas openpyxl streamlit plotly
+   pip install -r requirements.txt
    ```
 3. Run the Streamlit dashboard:
    ```
